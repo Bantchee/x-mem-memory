@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = (props) => {
     return (
         <div
-            className="row-span-1 flex justify-center content-center bg-yellow-400"
+            className="row-span-1 flex justify-center content-center bg-yellow-400 text-neutral-900"
         >
             <div
                 className="mt-auto mb-auto flex justify-center content-center gap-2"
@@ -21,7 +21,7 @@ const Footer = (props) => {
                 >
                     <FontAwesomeIcon 
                         icon={faGithub}
-                        className="w-12 h-12"
+                        className="w-12 h-12 text-neutral-900 hover:text-red-500"
                     />
                 </a>
             </div>
