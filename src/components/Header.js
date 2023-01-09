@@ -1,7 +1,9 @@
 const Header = (props) => {
     return (
         <div>
-            <h1>X-Men Memory</h1>
+            <h1 className="">
+                X-Men Memory
+            </h1>
         </div>
     )
 };
