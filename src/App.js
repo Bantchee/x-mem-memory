@@ -5,10 +5,12 @@ import Footer from './components/Footer.js'
 
 const App = () => {
   return (
-    <div>
+    <div
+      className='grid grid-rows-5 h-screen'
+    >
       <Header />
       <Main />
-      <Footer />
+      <Footer/>
     </div>
   )
 }

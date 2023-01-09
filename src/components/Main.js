@@ -1,6 +1,8 @@
 const Main = (props) => {
     return (
-        <div>
+        <div
+            className="row-span-3"
+        >
             <p>Cards</p>
         </div>
     );

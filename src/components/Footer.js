@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = (props) => {
     return (
         <div
-            className="flex justify-center content-center bg-yellow-400 gap-2 pt-6 pb-6"
+            className="row-span-1 flex justify-center content-center bg-yellow-400 gap-2 pt-6 pb-6"
         >
             <h1
                 className=" text-4xl font-bold ">
