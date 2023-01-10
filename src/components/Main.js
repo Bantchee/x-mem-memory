@@ -76,12 +76,69 @@ const Main = (props) => {
                 key={index}
                 name={name}
                 imgUrl={imgUrl}
+                onClick={() => handleCardClick(name)}
             />
         )
     };
 
-    const shuffleCards = (cards) => {
-        return cards;
+    // Get Clicked Card
+    // If clickedCard has been clicked before
+        // resetCards()
+        // shuffleCards()
+    // Else
+        //  clickCard.hasBeenClieck = true
+        // setCards(replaceByName(clickCard, cards));
+        // increaseCurrentScore
+    const handleCardClick = (name) => {
+        let clickedCard = cards.find(element => element.name === name);
+        
+        if(clickedCard.hasBeenClicked) {
+            setCards(resetCards());
+            setCards(shuffleCards());
+            resetCurrentScore();
+        }
+        else {
+            clickedCard.hasBeenClicked = true;
+            setCards(replaceCardByName(clickedCard));
+            setCards(shuffleCards());
+            increaseScore();
+        }
+    }
+
+    const resetCards = () => {
+        return cards.map(card => {
+            card.hasBeenClicked = false;
+            return card;
+        });
+    }
+
+    const shuffleCards = () => {
+        const newCards = cards;
+
+        for (let i = newCards.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = newCards[i];
+            newCards[i] = newCards[j];
+            newCards[j] = temp;
+        }
+
+        return newCards;
+    };
+
+    const replaceCardByName = (card) => {
+        return cards.map(element =>  (element.name === card.name) ? card : element);
+    };
+
+    const increaseScore = () => {
+        setCurrentScore(currentScore + 1);
+
+        if(currentScore + 1 > bestScore) {
+            setBestScore(bestScore + 1);
+        }
+    };
+
+    const resetCurrentScore = () => {
+        setCurrentScore(0);
     };
 
     return (

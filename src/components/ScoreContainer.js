@@ -10,7 +10,7 @@ const ScoreContainer = (props) => {
                 score={props.currentScore}
             />
             <BestScore 
-                score={props.currentScore}
+                score={props.bestScore}
             />
         </div>
     )
