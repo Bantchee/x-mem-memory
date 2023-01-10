@@ -6,7 +6,7 @@ import Footer from './components/Footer.js'
 const App = () => {
   return (
     <div
-      className='grid grid-rows-7 h-screen'
+      className='grid grid-rows-8 h-screen'
     >
       <Header />
       <Main />
