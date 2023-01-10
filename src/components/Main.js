@@ -10,50 +10,62 @@ const Main = (props) => {
             {
                 name: "Wolverine",
                 imgUrl: "../img/wolverine.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Cyclops",
                 imgUrl: "../img/cyclops.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Professor X",
                 imgUrl: "../img/professor_x.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Storm",
                 imgUrl: "../img/storm.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Jean Grey",
                 imgUrl: "../img/jean_grey.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Nightcrawler",
                 imgUrl: "../img/nightcrawler.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Gambit",
                 imgUrl: "../img/gambit.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Rogue",
                 imgUrl: "../img/rogue.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Colossus",
                 imgUrl: "../img/colossus.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Beast",
                 imgUrl: "../img/beast.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Angel",
                 imgUrl: "../img/angel.jpeg",
+                hasBeenClicked: false,
             },
             {
                 name: "Iceman",
                 imgUrl: "../img/iceman.jpeg",
+                hasBeenClicked: false,
             },
         ]
     );
