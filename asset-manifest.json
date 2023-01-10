@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/x-men-memory/static/css/main.14f0bce2.css",
+    "main.js": "/x-men-memory/static/js/main.8fa2b061.js",
+    "index.html": "/x-men-memory/index.html",
+    "main.14f0bce2.css.map": "/x-men-memory/static/css/main.14f0bce2.css.map",
+    "main.8fa2b061.js.map": "/x-men-memory/static/js/main.8fa2b061.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14f0bce2.css",
+    "static/js/main.8fa2b061.js"
+  ]
+}
