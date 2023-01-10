@@ -6,7 +6,8 @@ const Card = (props) => {
         >
             <img 
                 className="rounded-xl w-28 h-36"
-                src={props.imgUrl} alt={props.name} 
+                src={props.imgUrl}
+                alt={props.name} 
             />
             <p 
             className="text-neutral-900 bottom-0 text-center font-bold text-base"

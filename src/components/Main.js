@@ -1,6 +1,18 @@
 import React, {useState} from "react";
 import Card from "./Card";
 import ScoreContainer from "./ScoreContainer";
+import wolverineImg from '../img/wolverine.jpeg';
+import cyclopsImg from '../img/cyclops.jpeg';
+import professorXImg from '../img/professor_x.jpeg';
+import stormImg from '../img/storm.jpeg';
+import jeanGreyImg from '../img/jean_grey.jpeg';
+import nightcrawlerImg from '../img/nightcrawler.jpeg';
+import gambitImg from '../img/gambit.jpeg';
+import rogueImg from '../img/rogue.jpeg';
+import colossusImg from '../img/colossus.jpeg';
+import beastImg from '../img/beast.jpeg';
+import angelImg from '../img/angel.jpeg';
+import icemanImg from '../img/iceman.jpeg';
 
 const Main = (props) => {
     const [currentScore, setCurrentScore] = useState(0);
@@ -9,62 +21,62 @@ const Main = (props) => {
         [
             {
                 name: "Wolverine",
-                imgUrl: "../img/wolverine.jpeg",
+                imgUrl: wolverineImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Cyclops",
-                imgUrl: "../img/cyclops.jpeg",
+                imgUrl: cyclopsImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Professor X",
-                imgUrl: "../img/professor_x.jpeg",
+                imgUrl: professorXImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Storm",
-                imgUrl: "../img/storm.jpeg",
+                imgUrl: stormImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Jean Grey",
-                imgUrl: "../img/jean_grey.jpeg",
+                imgUrl: jeanGreyImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Nightcrawler",
-                imgUrl: "../img/nightcrawler.jpeg",
+                imgUrl: nightcrawlerImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Gambit",
-                imgUrl: "../img/gambit.jpeg",
+                imgUrl: gambitImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Rogue",
-                imgUrl: "../img/rogue.jpeg",
+                imgUrl: rogueImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Colossus",
-                imgUrl: "../img/colossus.jpeg",
+                imgUrl: colossusImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Beast",
-                imgUrl: "../img/beast.jpeg",
+                imgUrl: beastImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Angel",
-                imgUrl: "../img/angel.jpeg",
+                imgUrl: angelImg,
                 hasBeenClicked: false,
             },
             {
                 name: "Iceman",
-                imgUrl: "../img/iceman.jpeg",
+                imgUrl: icemanImg,
                 hasBeenClicked: false,
             },
         ]
@@ -90,6 +102,7 @@ const Main = (props) => {
         // setCards(replaceByName(clickCard, cards));
         // increaseCurrentScore
     const handleCardClick = (name) => {
+        
         let clickedCard = cards.find(element => element.name === name);
         
         if(clickedCard.hasBeenClicked) {
