@@ -139,7 +139,7 @@ const Main = (props) => {
     };
 
     const replaceCardByName = (card) => {
-        return cards.map(element =>  (element.name === card.name) ? card : element);
+        return cards.map(element => (element.name === card.name) ? card : element);
     };
 
     const increaseScore = () => {

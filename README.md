@@ -14,6 +14,7 @@ A mini game application where the objective is to click each card only once
 * Tailwind CSS
 * Figma
 * Webpack
+* Jest (Future)
 * Prettier (Future)
 * Eslint (Future)
 
