@@ -1,20 +1,18 @@
 # X-men Memory
-A mini game application where the objective is to click each card only once
+A single page mini game application where the objective is to click each card only once
 
 # Goals
-* Learn React
-* Learn Tailwind
-
-# Features
-* Responsive Web Site (Future)
-* Single Page
+* Continue Learning React
+* Continue Learning Tailwind
+* Learn React Jest Testing (Currently working on)
+* Learn Responsive Design (Queued)
 
 # Tools
 * React
 * Tailwind CSS
 * Figma
 * Webpack
-* Jest (Future)
+* Jest
 * Prettier (Future)
 * Eslint (Future)
 
