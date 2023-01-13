@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrentScore Component renders component 1`] = `
+<div>
+  <div
+    class="pt-1 pb-1 border-4 w-64 flex justify-center rounded-lg border-yellow-400"
+  >
+    <span
+      class="text-red-500 m-auto"
+    >
+      Current Score: 
+    </span>
+  </div>
+</div>
+`;
