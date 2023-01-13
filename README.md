@@ -3,6 +3,8 @@ A single page mini game application where the objective is to click each card on
 
 # Goals
 * Continue Learning React
+    * useState
+    * useEffect (Queued)
 * Continue Learning Tailwind
 * Learn React Jest Testing (Currently working on)
 * Learn Responsive Design (Queued)
