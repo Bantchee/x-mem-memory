@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component render card component 1`] = `
+<div>
+  <button
+    class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+  >
+    <img
+      class="rounded-xl w-28 h-36"
+    />
+    <p
+      class="text-neutral-900 bottom-0 text-center font-bold text-base"
+    />
+  </button>
+</div>
+`;
