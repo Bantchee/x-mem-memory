@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Component renders 1`] = `
+<div>
+  <div
+    class="row-span-5 bg-neutral-900 p-4 flex flex-col gap-4"
+  >
+    <div
+      class="flex text-2xl gap-16 justify-center"
+    >
+      <div
+        class="pt-1 pb-1 border-4 w-64 flex justify-center rounded-lg border-yellow-400"
+      >
+        <span
+          class="text-red-500 m-auto"
+        >
+          Current Score: 
+          0
+        </span>
+      </div>
+      <div
+        class="pt-1 pb-1 border-4 w-64 flex justify-center rounded-lg border-yellow-400"
+      >
+        <span
+          class="text-red-500 m-auto"
+        >
+          Best Score: 
+          0
+        </span>
+      </div>
+    </div>
+    <div
+      class="flex flex-wrap gap-4 justify-center pr-96 pl-96"
+    >
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Wolverine"
+          class="rounded-xl w-28 h-36"
+          src="wolverine.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Wolverine
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Cyclops"
+          class="rounded-xl w-28 h-36"
+          src="cyclops.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Cyclops
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Professor X"
+          class="rounded-xl w-28 h-36"
+          src="professor_x.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Professor X
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Storm"
+          class="rounded-xl w-28 h-36"
+          src="storm.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Storm
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Jean Grey"
+          class="rounded-xl w-28 h-36"
+          src="jean_grey.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Jean Grey
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Nightcrawler"
+          class="rounded-xl w-28 h-36"
+          src="nightcrawler.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Nightcrawler
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Gambit"
+          class="rounded-xl w-28 h-36"
+          src="gambit.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Gambit
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Rogue"
+          class="rounded-xl w-28 h-36"
+          src="rogue.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Rogue
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Colossus"
+          class="rounded-xl w-28 h-36"
+          src="colossus.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Colossus
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Beast"
+          class="rounded-xl w-28 h-36"
+          src="beast.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Beast
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Angel"
+          class="rounded-xl w-28 h-36"
+          src="angel.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Angel
+        </p>
+      </button>
+      <button
+        class="flex flex-col content-center justify-center border-red-500 border-4 rounded-xl p-2 bg-yellow-400"
+      >
+        <img
+          alt="Iceman"
+          class="rounded-xl w-28 h-36"
+          src="iceman.jpeg"
+        />
+        <p
+          class="text-neutral-900 bottom-0 text-center font-bold text-base"
+        >
+          Iceman
+        </p>
+      </button>
+    </div>
+  </div>
+</div>
+`;
