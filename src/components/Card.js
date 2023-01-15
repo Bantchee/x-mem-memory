@@ -5,7 +5,7 @@ const Card = (props) => {
             onClick={props.onClick}
         >
             <img 
-                className="rounded-xl w-28 h-36"
+                className="rounded-xl min-w-[7rem] max-h-[10rem]"
                 src={props.imgUrl}
                 alt={props.name} 
             />
