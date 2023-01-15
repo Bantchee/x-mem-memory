@@ -163,7 +163,7 @@ const Main = (props) => {
                 bestScore={bestScore}
             />
             <div
-                className="flex flex-wrap gap-4 justify-center pr-96 pl-96"
+                className="flex flex-wrap gap-4 justify-center max-w-[50%] self-center"
             >
                 {
                     cards.map(
